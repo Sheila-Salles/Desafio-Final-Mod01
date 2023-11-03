@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif:opsz@8..144&display=swap");
+
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Roboto Serif', serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #252525;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header div {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+header div .imgPata {
+  width: 4vw;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+header nav {
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header nav img {
+  height: 4vh;
+}
+
+main {
+  background-image: url("/imagens/cao1.png");
+  height: 120vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: 100% 120vh;
+  display: flex;
+  align-items: center;
+}
+
+main img {
+  height: 20vh;
+  width: 20vw;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  box-shadow: #ffffff;
+}
+
+main h1 {
+  font-size: 8rem;
+  height: 1vh;
+  width: 50%;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 5rem;
+  margin-bottom: 8rem;
+  font-weight: 1000;
+  font-family: "Roboto", sans-serif;
+}
+
+.cao2 {
+  background-image: url("imagens/cao2.png");
+  height: 120vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: 100% 120vh;
+  display: flex;
+  align-items: center;
+}
+
+.cao2 div {
+  width: 40%;
+  margin-left: 4rem;
+}
+
+.cao2 h2 {
+  font-size: 3.5rem;
+  color: #3a342f;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+}
+
+.cao2 p {
+  font-size: 2rem;
+  color: #3a342f;
+  margin: 2rem 0 2rem 0;
+  font-family: "Roboto Serif", serif;
+}
+.cao2 button {
+  width: 30%;
+  height: 8vh;
+  font-size: 2rem;
+  border-radius: 40px;
+  background-color: #3a342f;
+  color: #f4f2f3;
+}
+
+.cao3 {
+  background-image: url("/imagens/cao3.png");
+  height: 120vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.cao3 div {
+  width: 40%;
+  margin-left: 10rem;
+}
+
+.cao3 h2 {
+  font-size: 1.5rem;
+  width: 60%;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  font-weight: 1000;
+  font-family: "Roboto", sans-serif;
+}
+.cao3 p {
+  font-size: 1rem;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+.cao2 button {
+  width: 50%;
+  height: 8vh;
+  font-size: 2rem;
+  border-radius: 40px;
+  background-color: #3a342f;
+  color: #f4f2f3;
+}
+
+.cao3 button {
+  width: 50%;
+  height: 8vh;
+  font-size: 2rem;
+  border-radius: 40px;
+  background-color: #ffffff;
+  color: #000000;
+}
+p {
+  font-size: 1rem;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+
+.cao3 div {
+  width: 50%;
+  height: 100vh;
+  justify-content: end;
+}
+
+.apoio {
+  font-size: 2rem;
+  color: #fd6a94;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: #eb4a7b;
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer h2 {
+  width: 40%;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-size: 100% 120vh;
+  display: flex;
+  align-items: center;
+}
+
+footer ul {
+  width: 40%;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-size: 100% 120vh;
+  display: flex;
+  align-items: center;
+}
